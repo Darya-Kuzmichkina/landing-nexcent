@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1152px;
+    background: #F5F7FA;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #F5F7FA;
+    padding: 30px 0;
+}
+
+header .container {
+    width: 1152px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f3138;
+}
+
+header nav p:hover {
+    color: #000103;
+}
+
+header .right :first-child {
+    width: 77px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 6px;
+    background: #F5F7FA;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4CAF4F;
+    border-width: 0px;
+}
+
+header .right :first-child:hover {
+    background: #d7dbe0;
+}
+
+header .right :last-child {
+
+    background: #4CAF4F;
+    border-radius: 6px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-width: 0px;
+}
+
+header .right :last-child:hover {
+    background: #448347;
+}
+
+main .section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+main .section1 .left {
+    margin-top: 161px;
+}
+
+main .section1 .left h1 {
+    font: 600 64px "Inter";
+    line-height: 76px;
+    color: #000000;
+}
+
+main .section1 .left h1 span {
+    font: 600 64px "Inter";
+    line-height: 76px;
+    color: #4CAF4F;
+
+}
+
+main .section1 .left p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+main .section1 .left button {
+    display: flex;
+    border-radius: 4px;
+    padding: 14px 32px;
+    background: #4CAF4F;
+    font: 500 16px "Inter";
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border-width: 0;
+}
+
+main .section1 .left button:hover {
+    background: #448347;
+}
+
+main .section1 .right {
+    margin-top: 96px;
+}
+
+main .section2 h3 {
+    font: 600 36px "Inter";
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 136px;
+    margin-bottom: 8px;
+}
+
+main .section2 p {
+    font: 400 16px "Inter";
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+}
+
+main .section2 .logotips {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    margin-top: 16px;
+    margin-bottom: 65px;
+}
+
+main .section3 h4 {
+    font: 600 36px "Inter";
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+main .section3 p {
+    font: 400 16px "Inter";
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+main .section3 .clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section3 .clients div {
+    width: 299px;
+    height: 280px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background: #F5F7FA;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .section3 .clients div img {
+    width: 65px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+main .section3 .clients h5 {
+    font: 700 28px "Inter";
+    line-height: 36px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+
+main .section3 .clients p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #717171;
+}
+
+main .section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+}
+
+main .section4 .right h4 {
+    font: 600 36px "Inter";
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+
+}
+
+main .section4 .right p {
+    font: 400 14px "Inter";
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
+main .section4 .right button {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    border-width: 0;
+    font: 500 16px "Inter";
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+main .section4 .right button:hover {
+    background: #448347;
+}
+
+main .section5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 204px;
+}
+
+main .section5 .left h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+
+}
+
+main .section5 .left h2 span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4CAF4F;
+
+}
+
+main .section5 .left p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191F;
+
+}
+
+main .section5 .right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+main .section5 .right .top {
+    display: flex;
+    gap: 40px;
+}
+
+main .section5 .right .bottom {
+    display: flex;
+    gap: 40px;
+}
+
+main .section5 .right .indicator {
+    display: flex;
+}
+
+main .section5 .right .top .indicator img {
+    width: 48px;
+    height: 48px;
+
+}
+
+main .section5 .right .number {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4D4D4D;
+}
+
+main .section5 .right .text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+
+}
+
+main .section6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 112px;
+}
+
+main .section6 .right h4 {
+    font: 600 36px "Inter";
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+
+}
+
+main .section6 .right p {
+    font: 400 14px "Inter";
+    line-height: 20px;
+    color: #717171;
+}
+
+main .section7 {
+    display: flex;
+    justify-content: space-between;
+    gap: 78px;
+    margin-top: 80px;
+}
+
+main .section7 .right .p1 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 16px;
+
+}
+
+main .section7 .right h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4CAF4F;
+    margin-bottom: 8px;
+}
+
+main .section7 .right .p2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #89939E;
+    margin-bottom: 32px;
+}
+
+main .section7 .logotips {
+    display: flex;
+    gap: 41px;
+}
+
+main .section7 .logotips button {
+    display: flex;
+    align-items: center;
+    width: 223px;
+    height: 44px;
+    padding: 8px;
+    color: #4CAF4F;
+    background: #F5F7FA;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    border-width: 0;
+}
+
+main .section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+main .section8 h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+
+main .section8 p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    margin-bottom: 16px;
+}
+
+main .section8 .elements {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 126px;
+}
+
+main .section8 .elements .el {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    background: #F5F7FA;
+}
+
+main .section8 .elements button {
+    display: flex;
+    align-items: center;
+    color: #4CAF4F;
+    background: #F5F7FA;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    border-width: 0;
+}
+
+main .section8 h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #263238;
+    margin-bottom: 32px;
+}
+
+main .section8 .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    border-width: 0;
+    font: 500 16px "Inter";
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+main .section8 .button1:hover {
+    background: #448347;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 64px 165px;
+    background: #263238;
+}
+
+footer .logo {
+    margin-bottom: 40px;
+}
+
+footer .left p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-bottom: 8px;
+}
+
+footer .left .networks {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+footer .left .social {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+footer .right p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-bottom: 12px;
+}
+
+footer .right h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+footer input {
+    width: 255px;
+    height: 40px;
+    opacity: 0.2;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D9DBE1;
+    padding: 12px;
+
+}
+
+footer .column3 img {
+    margin-left: -30px;
+}
