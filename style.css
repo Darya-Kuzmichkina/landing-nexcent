@@ -252,10 +252,9 @@ main .section4 .right button:hover {
 }
 
 main .section5 {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     gap: 204px;
+    margin-left: 70px;
 }
 
 main .section5 .left h2 {
@@ -294,12 +293,12 @@ main .section5 .right {
 
 main .section5 .right .top {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 main .section5 .right .bottom {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 main .section5 .right .indicator {
@@ -352,9 +351,14 @@ main .section6 .right p {
 
 main .section7 {
     display: flex;
-    justify-content: space-between;
     gap: 78px;
     margin-top: 80px;
+}
+
+main .section7 .left img {
+    width: 326px;
+    height: 326px;
+
 }
 
 main .section7 .right .p1 {
@@ -390,19 +394,14 @@ main .section7 .logotips {
     gap: 41px;
 }
 
-main .section7 .logotips button {
-    display: flex;
-    align-items: center;
-    width: 223px;
-    height: 44px;
-    padding: 8px;
-    color: #4CAF4F;
-    background: #F5F7FA;
+main .section7 .logotips .meet_all {
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
-    line-height: 28px;
-    border-width: 0;
+    color: #4CAF4F;
+    text-decoration: none;
+    display: block;
+
 }
 
 main .section8 {
@@ -453,18 +452,6 @@ main .section8 .elements .el {
     background: #F5F7FA;
 }
 
-main .section8 .elements button {
-    display: flex;
-    align-items: center;
-    color: #4CAF4F;
-    background: #F5F7FA;
-    font-family: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    border-width: 0;
-}
-
 main .section8 h2 {
     font-family: Inter;
     font-weight: 600;
@@ -473,6 +460,42 @@ main .section8 h2 {
     text-align: center;
     color: #263238;
     margin-bottom: 32px;
+}
+
+main .section8 .elements {
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+
+}
+
+main .section8 .card {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+main .section8 .elements .card .el {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+main .section8 .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+main .section8 .read-more {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4CAF4F;
+    text-decoration: none;
+
 }
 
 main .section8 .button1 {
